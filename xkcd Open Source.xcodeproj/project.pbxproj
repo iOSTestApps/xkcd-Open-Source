@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0152E0706FF4C25746FF4AD3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A671A9A3BFF55B65F727A5C8 /* AssetsLibrary.framework */; };
+		20D9A784331B03904B197115 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C982228249CB74227C508F /* BuddyBuildSDK.framework */; };
 		270B574B1B07F28700651787 /* AltView.m in Sources */ = {isa = PBXBuildFile; fileRef = 270B574A1B07F28700651787 /* AltView.m */; };
 		2714CCB81B05667400ADF009 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714CCB71B05667400ADF009 /* main.m */; };
 		2714CCBB1B05667400ADF009 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2714CCBA1B05667400ADF009 /* AppDelegate.m */; };
@@ -31,6 +33,7 @@
 		27B984B41B10CB8B00684AA1 /* RequestManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B984B31B10CB8B00684AA1 /* RequestManagerTests.m */; };
 		27EE4A601B07BDAA001454A3 /* ComicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EE4A5F1B07BDAA001454A3 /* ComicViewController.m */; };
 		27F653681B154C5C00F3377D /* silent.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 27F653671B154C5C00F3377D /* silent.m4a */; };
+		698EAA0951B1525A4E371570 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D859E9423883A3549DA67253 /* CoreText.framework */; };
 		70F7092809A3BE7A7BB3041B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A2B0C2ACB019A4B019EC89 /* libPods.a */; };
 		DE6143AD0449792A37D3B29D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 673CC68C4D10E2143071F67E /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -89,6 +92,9 @@
 		27F653671B154C5C00F3377D /* silent.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = silent.m4a; sourceTree = "<group>"; };
 		4484B4BA0184CB6D6523840B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		673CC68C4D10E2143071F67E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C982228249CB74227C508F /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		A671A9A3BFF55B65F727A5C8 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D859E9423883A3549DA67253 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		F23446BA06D19E2DB13831EC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +106,9 @@
 				70F7092809A3BE7A7BB3041B /* libPods.a in Frameworks */,
 				2715C2EF1B090AFD00F50645 /* Crashlytics.framework in Frameworks */,
 				2715C2EE1B090AFD00F50645 /* Fabric.framework in Frameworks */,
+				20D9A784331B03904B197115 /* BuddyBuildSDK.framework in Frameworks */,
+				0152E0706FF4C25746FF4AD3 /* AssetsLibrary.framework in Frameworks */,
+				698EAA0951B1525A4E371570 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +393,9 @@
 			isa = PBXGroup;
 			children = (
 				673CC68C4D10E2143071F67E /* libPods.a */,
+				94C982228249CB74227C508F /* BuddyBuildSDK.framework */,
+				A671A9A3BFF55B65F727A5C8 /* AssetsLibrary.framework */,
+				D859E9423883A3549DA67253 /* CoreText.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
