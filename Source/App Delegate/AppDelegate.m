@@ -14,6 +14,7 @@
 #import <GTTracker.h>
 #import <Fabric/Fabric.h>
 #import <Crashlytics/Crashlytics.h>
+#import <BuddyBuildSDK/BuddyBuildSDK.h>
 
 static NSString * const kAnalyticsTrackingID = @"UA-63011163-1";
 
@@ -27,6 +28,8 @@ static NSString * const kAnalyticsTrackingID = @"UA-63011163-1";
 #pragma mark - App life cycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [BuddyBuildSDK setup];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 
